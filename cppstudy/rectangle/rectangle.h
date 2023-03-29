@@ -1,12 +1,19 @@
-//
-//  rectangle.h
-//  cppstudy
-//
-//  Created by 유지상 on 2023/03/29.
-//
+#ifndef RECTANGLE_H
+#define RECTANGLE_H
 
-#ifndef rectangle_h
-#define rectangle_h
+using namespace std;
 
+class Rectangle {
+public:
+    Rectangle(int, int, int, int, int); //생성자 선언
+    ~Rectangle(); //파괴자
+    int GetNum();
+    int GetHeight();
+    int GetWidth();
+    int GetArea();
+    friend ostream& operator <<(ostream& os, Rectangle& r); //연산자 다중
 
-#endif /* rectangle_h */
+private:
+    int rNum, xLow, yLow, height, width;
+};
+#endif

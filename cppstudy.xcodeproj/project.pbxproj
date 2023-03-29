@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7CFEF2B29D4130A00DAF6C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7CFEF2A29D4130A00DAF6C2 /* main.cpp */; };
+		C7CFEF3E29D418CD00DAF6C2 /* rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7CFEF3D29D418CD00DAF6C2 /* rectangle.cpp */; };
+		C7CFEF4429D41F5100DAF6C2 /* RectangleExe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7CFEF4029D41B0B00DAF6C2 /* RectangleExe.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,14 @@
 
 /* Begin PBXFileReference section */
 		C7CFEF2729D4130A00DAF6C2 /* cppstudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cppstudy; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7CFEF2A29D4130A00DAF6C2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C7CFEF3D29D418CD00DAF6C2 /* rectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rectangle.cpp; sourceTree = "<group>"; };
+		C7CFEF3F29D4199300DAF6C2 /* rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rectangle.h; sourceTree = "<group>"; };
+		C7CFEF4029D41B0B00DAF6C2 /* RectangleExe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RectangleExe.cpp; sourceTree = "<group>"; };
+		C7CFEF4229D41BCB00DAF6C2 /* BinarySearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearch.cpp; sourceTree = "<group>"; };
+		C7CFEF4529D4215F00DAF6C2 /* BinarySearchRecursive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearchRecursive.cpp; sourceTree = "<group>"; };
+		C7CFEF4629D4219100DAF6C2 /* Permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Permutation.cpp; sourceTree = "<group>"; };
+		C7CFEF4729D421C100DAF6C2 /* Week3Homework_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Week3Homework_1.cpp; sourceTree = "<group>"; };
+		C7CFEF4829D4220300DAF6C2 /* Week3Homework_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Week3Homework_2.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,32 @@
 		C7CFEF2929D4130A00DAF6C2 /* cppstudy */ = {
 			isa = PBXGroup;
 			children = (
-				C7CFEF2A29D4130A00DAF6C2 /* main.cpp */,
+				C7CFEF3929D4174B00DAF6C2 /* Week3 */,
+				C7CFEF3829D416E700DAF6C2 /* rectangle */,
 			);
 			path = cppstudy;
+			sourceTree = "<group>";
+		};
+		C7CFEF3829D416E700DAF6C2 /* rectangle */ = {
+			isa = PBXGroup;
+			children = (
+				C7CFEF3D29D418CD00DAF6C2 /* rectangle.cpp */,
+				C7CFEF3F29D4199300DAF6C2 /* rectangle.h */,
+				C7CFEF4029D41B0B00DAF6C2 /* RectangleExe.cpp */,
+			);
+			path = rectangle;
+			sourceTree = "<group>";
+		};
+		C7CFEF3929D4174B00DAF6C2 /* Week3 */ = {
+			isa = PBXGroup;
+			children = (
+				C7CFEF4229D41BCB00DAF6C2 /* BinarySearch.cpp */,
+				C7CFEF4529D4215F00DAF6C2 /* BinarySearchRecursive.cpp */,
+				C7CFEF4629D4219100DAF6C2 /* Permutation.cpp */,
+				C7CFEF4729D421C100DAF6C2 /* Week3Homework_1.cpp */,
+				C7CFEF4829D4220300DAF6C2 /* Week3Homework_2.cpp */,
+			);
+			path = Week3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7CFEF2B29D4130A00DAF6C2 /* main.cpp in Sources */,
+				C7CFEF4429D41F5100DAF6C2 /* RectangleExe.cpp in Sources */,
+				C7CFEF3E29D418CD00DAF6C2 /* rectangle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
